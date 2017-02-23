@@ -1,0 +1,268 @@
+body {
+	font-family: Helvetica, sans-serif;
+	width: 100%;
+}
+
+.container {
+	position:relative;
+	width: 80%;
+	margin: 60px auto;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.enTete {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	background: rgba(0, 0, 0, 0.7);
+	color: rgba(200, 200, 200, 1);
+    border-top: 4px solid brown;
+    border-bottom: 2px solid brown;
+}
+
+/***************************
+*                          *
+*        Style Menu        *
+*                          *
+***************************/
+.menu {
+	width: 20%;
+	float: left;
+	font-size: 18px;
+    margin: -19px 0;
+}
+
+.menu li:first-child {
+	list-style: none;
+    margin: 0px 0 0 -40px;
+    padding: 4px 0 4px 12px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .2),0 0 0 0 rgba(0, 0, 0, .2);
+}
+.menu li{
+	list-style: none;
+    
+    margin: 0 0 0 -40px;
+    padding: 4px 0 4px 12px;
+    color: black;
+}
+.menu li:hover{
+    color: rgba(250, 250, 250, 0.9);
+    background: brown;
+}
+.menu li:first-child:hover {
+    color: inherit;
+    background: rgba(0, 0, 0, 0.1);
+}
+.menu a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/**********************
+*                     *
+*   Style Principal   *
+*                     *
+**********************/
+.principal {
+	width: 78%;
+    min-height: 250px;
+	float: right;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 0 1%;
+}
+
+.principal h2{
+	line-height:10px
+}
+.principal a{
+	color:red;
+}
+.rectangle {
+    width: 220px;
+	line-height: 22px;
+	margin: 10px auto;
+}
+.rectangle div{
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0 1px;
+    background: brown;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(200, 80, 80, 1) inset,
+                -2px -2px 1px rgba(0, 0, 0, .2) inset;
+}
+.rectangle span{
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0 1px;
+}
+/**********************
+*                     *
+*     Style Pied      *
+*                     *
+**********************/
+.pied {
+	position: relative;
+	clear: both;
+	width: 100%;
+	height: 50px;
+	line-height: 10px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.7);
+    border-top: 2px solid brown;
+    border-bottom: 4px solid brown;
+}
+.pied a {
+	position:relative;
+	top:12px;
+	margin: auto;
+	font-size: 10px;
+	color: rgba(200, 200, 200, .7);
+	text-decoration: none;
+}
+
+/************************
+*                       *
+*      Style .form      *
+*                       *
+************************/
+.form {
+	background: #E2E2D9;
+	width:290px;
+	border-radius: 8px;
+	margin: 12px 4px;
+    padding: 2px 12px;
+	box-shadow: 0 0 1px black, 1px 1px 10px rgba(0, 0, 0, 0.8);
+	color: black;
+	position: relative;
+}
+
+.form input {
+	border: 1px solid white;
+	border-radius: 2px;
+	height: 18px;
+    padding: 6px;
+    margin: -6px 0px;
+	background: white;
+	box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.form input:focus {
+	border-radius: 2px;
+	border: 1px solid #555;
+	box-shadow: 0 0 3px #aaa;
+}
+
+label {
+	width: 115px;
+    height: 18px;
+    line-height: 18px;
+    padding: 4px 0;
+	display: inline-block;
+	float: left;
+    margin: -4px;
+}
+
+select {
+	border: 0;
+	padding: 6px 0 6px 0;
+	margin: -8px 0;
+	border-radius: 2px;
+	background: white;
+	width: 183px;
+	box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+input[type=radio] {
+    width: 18px;
+    height: 18px;
+	background: #fff;
+	float: left;
+	border: none;
+	box-shadow: none;
+    margin: -1px 6px;
+    padding: 0;
+}
+
+input[type=radio]:focus {
+	box-shadow: none;
+}
+
+/**********************
+*                     *
+*     Style Table     *
+*                     *
+**********************/
+table {
+	text-align: center;
+	line-height: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.55);
+    border-collapse: collapse;
+    border-bottom: 2px solid brown;
+    margin: auto;
+    margin-bottom: 8px;
+}
+td{
+    padding: 4px 4px;
+    width: 400px;
+}
+tr:first-child{
+    background: brown;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+tr:nth-child(even){
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/**********************
+*                     *
+*  Style des Buttons  *
+*                     *
+**********************/
+input[type=submit], input[type=reset] {
+	background: #93AB34;
+	color: white;
+	height: 40px;
+    width: 115px;
+	border-radius: 2px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 18px;
+	margin: 0;
+    padding: 0;
+	border: 1px solid #93AB34;
+	box-shadow: inset 0 0 0 2px #93AB34;
+	outline: none;
+}
+
+input[type=reset] {
+	background: #E7655A;
+	box-shadow: inset 0 0 0 2px #E7655A;
+	border: 1px solid #E7655A;
+}
+
+input[type=submit]:active, input[type=submit]:focus {
+	background: #FFF;
+	color: #93AB34;
+	box-shadow: inset 0 0 0 2px #93AB34;
+	border: 1px solid #93AB34;
+}
+
+input[type=reset]:focus, input[type=reset]:active {
+	background: #FFF;
+	color: #E7655A;
+	box-shadow: inset 0 0 0 2px #E7655A;
+	border: 1px solid #E7655A;
+}
