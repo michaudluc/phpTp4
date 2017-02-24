@@ -51,8 +51,8 @@ else {
 ?>
     <div class="form">
        <form action="" method="post">
-         <p><label for="largeur">Largeur :</label><input type="text" name="largeur" /></p>
-         <p><label for="hauteur">Hauteur :</label><input type="text" name="hauteur" /></p>
+         <p><label for="largeur">Largeur :</label><input type="number" name="largeur" /></p>
+         <p><label for="hauteur">Hauteur :</label><input type="number" name="hauteur" /></p>
          <p><input type="submit" value="OK"></p>
        </form> 
     </div>

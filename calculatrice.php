@@ -93,8 +93,8 @@ else {
 ?>
     <div class="form">
         <form action="" method="post">
-         <p><label for="nb1">Nombre 1 :</label><input type="text" name="nb1" /></p>
-         <p><label for="nb2">Nombre 2 :</label><input type="text" name="nb2" /></p>
+         <p><label for="nb1">Nombre 1 :</label><input type="number" name="nb1" /></p>
+         <p><label for="nb2">Nombre 2 :</label><input type="number" name="nb2" /></p>
          <p><label for="operateur">Operation :</label>
             <select name="operateur">
                 <option value="addition">Addition</option>
