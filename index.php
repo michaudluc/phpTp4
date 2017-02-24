@@ -5,6 +5,7 @@ session_start();
 <html lang="fr">
 <head>
 <meta charset="utf-8" />
+<meta name="viewport" content="minimal-ui, width=device-width">
 <title>TP4</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
