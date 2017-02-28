@@ -1,5 +1,5 @@
 <div class="principal">
-<h2>Dessiner un rectangle</h2><br>
+<h2>Dessiner un rectangle</h2>
 
 <?php
 
@@ -46,7 +46,7 @@ if($resultat != null) { //Si le formulaire a bien été posté.
 	}
 }
 else {
-		echo 'La largeur et la hauteur doivent être entre 3 et 10 inclusivement.';
+		echo 'La largeur et la hauteur doivent être entre 3 et 10 inclusivement.<br/>';
 }
 ?>
     <div class="form">

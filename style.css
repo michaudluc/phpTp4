@@ -53,7 +53,6 @@ body {
 }
 .menu li{
 	list-style: none;
-    
     margin: 0 0 0 -40px;
     padding: 4px 0 4px 12px;
     color: black;
@@ -85,7 +84,7 @@ body {
 }
 
 .principal h2{
-	line-height:10px
+	line-height:10px;
 }
 .principal a{
 	color:red;
@@ -113,6 +112,7 @@ body {
     padding: 0;
     margin: 0 1px;
 }
+
 /**********************
 *                     *
 *     Style Pied      *
@@ -147,11 +147,13 @@ body {
 	background: #E2E2D9;
 	width:260px;
 	border-radius: 8px;
-	margin: 12px 4px;
+	margin: 10px;
     padding: 5px 9px 1px 14px;
 	box-shadow: 0 0 1px black, 1px 1px 10px rgba(0, 0, 0, 0.8);
 	color: black;
 	position: relative;
+    display: inline-block;
+    float:left;
 }
 
 input {
@@ -208,6 +210,7 @@ input[type=radio] {
 input[type=radio]:focus {
     box-shadow: none;
 }
+
 /**********************
 *                     *
 *     Style Table     *
@@ -220,11 +223,11 @@ table {
     background: rgba(0, 0, 0, 0.55);
     border-collapse: collapse;
     border-bottom: 2px solid brown;
-    margin: auto;
-    margin-bottom: 8px;
+    margin: 30px 10px 10px 10px;
+    min-width: 300px;
 }
 td{
-    padding: 4px 4px;
+    padding: 4px;
     width: 400px;
 }
 tr:first-child{
@@ -264,4 +267,19 @@ input[type=submit]:active, input[type=submit]:focus {
 	color: #93AB34;
 	box-shadow: inset 0 0 0 2px #93AB34;
 	border: 1px solid #93AB34;
+}
+input[name=ok]{
+margin: 10px;
+}
+input[name=reset]{
+    background: brown;
+    border: 1px solid brown;
+    box-shadow: inset 0 0 0 2px brown;
+}
+input[name=reset]:active,
+input[name=reset]:focus {
+	background: #FFF;
+	color: brown;
+	box-shadow: inset 0 0 0 2px brown;
+	border: 1px solid brown;
 }

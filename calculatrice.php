@@ -1,5 +1,5 @@
 <div class="principal">
-<h2>Calculatrice</h2><br>
+<h2>Calculatrice</h2>
 
 <?php
 
@@ -88,7 +88,7 @@ if($resultat != null) { //Si le formulaire a bien été posté.
 	}
 }
 else {
-		echo 'Les nombres négatifs ne sont pas acceptés.';
+		echo 'Les nombres négatifs ne sont pas acceptés.<br/>';
 }
 ?>
     <div class="form">
