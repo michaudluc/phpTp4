@@ -5,9 +5,9 @@
 
 $options = array(
 		'largeur' => array( 'filter' 	=> FILTER_VALIDATE_INT,
-							'options' 	=> array('min_range' => 3,'max_range' => 10)),
+				    'options' 	=> array('min_range' => 3,'max_range' => 10)),
 		'hauteur' => array( 'filter'    => FILTER_VALIDATE_INT,
-							'options'   => array('min_range' => 3, 'max_range' => 10))
+				    'options'   => array('min_range' => 3, 'max_range' => 10))
 );
 
 $resultat = filter_input_array(INPUT_POST, $options);
